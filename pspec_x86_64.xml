@@ -1,0 +1,42 @@
+<PISI>
+    <Source>
+        <Name>python-backports.entry_points_selectable</Name>
+        <Packager>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
+        </Packager>
+        <License>MIT</License>
+        <PartOf>programming.python</PartOf>
+        <Summary xml:lang="en">Compatibility shim to ease adoption of importlib_metadata 3.6</Summary>
+        <Description xml:lang="en">Compatibility shim to ease adoption of importlib_metadata 3.6. Supplies forward-compatibility of &quot;selectable&quot; entry points even on older versions of importlib_metadata and importlib.metadata, and avoids usage that triggers deprecation warnings.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>python-backports.entry_points_selectable</Name>
+        <Summary xml:lang="en">Compatibility shim to ease adoption of importlib_metadata 3.6</Summary>
+        <Description xml:lang="en">Compatibility shim to ease adoption of importlib_metadata 3.6. Supplies forward-compatibility of &quot;selectable&quot; entry points even on older versions of importlib_metadata and importlib.metadata, and avoids usage that triggers deprecation warnings.
+</Description>
+        <PartOf>programming.python</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/backports.entry_points_selectable-1.1.0-py3.9.egg-info/PKG-INFO</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/backports.entry_points_selectable-1.1.0-py3.9.egg-info/SOURCES.txt</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/backports.entry_points_selectable-1.1.0-py3.9.egg-info/dependency_links.txt</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/backports.entry_points_selectable-1.1.0-py3.9.egg-info/requires.txt</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/backports.entry_points_selectable-1.1.0-py3.9.egg-info/top_level.txt</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/backports/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/backports/__pycache__/__init__.cpython-39.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/backports/__pycache__/entry_points_selectable.cpython-39.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/backports/entry_points_selectable.py</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2021-08-18</Date>
+            <Version>1.1.0</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
+        </Update>
+    </History>
+</PISI>
