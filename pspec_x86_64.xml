@@ -1,9 +1,10 @@
 <PISI>
     <Source>
         <Name>python-backports.entry_points_selectable</Name>
+        <Homepage>https://github.com/jaraco/backports.entry_points_selectable</Homepage>
         <Packager>
-            <Name>Evan Maddock</Name>
-            <Email>maddock.evan@vivaldi.net</Email>
+            <Name>Algent Albrahimi</Name>
+            <Email>algent@protonmail.com</Email>
         </Packager>
         <License>MIT</License>
         <PartOf>programming.python</PartOf>
@@ -31,12 +32,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2021-08-18</Date>
+        <Update release="2">
+            <Date>2022-04-15</Date>
             <Version>1.1.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>Evan Maddock</Name>
-            <Email>maddock.evan@vivaldi.net</Email>
+            <Name>Algent Albrahimi</Name>
+            <Email>algent@protonmail.com</Email>
         </Update>
     </History>
 </PISI>
