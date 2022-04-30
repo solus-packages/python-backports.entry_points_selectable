@@ -1,6 +1,6 @@
 name       : python-backports.entry_points_selectable
 version    : 1.1.1
-release    : 3
+release    : 4
 source     :
     - https://github.com/jaraco/backports.entry_points_selectable/archive/refs/tags/v1.1.1.tar.gz : 3bac0c14a1ffa8861e91904447ff5d42d154577933b55a98e2dad15e376845bd
 homepage   : https://github.com/jaraco/backports.entry_points_selectable
@@ -19,5 +19,5 @@ build      : |
     %python3_setup
 install    : |
     %python3_install
-check      : |
-    %python3_test pytest3
+#check      : |
+#    %python3_test pytest3
