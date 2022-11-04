@@ -1,8 +1,8 @@
 name       : python-backports.entry_points_selectable
-version    : 1.1.1
-release    : 5
+version    : 1.2.0
+release    : 6
 source     :
-    - https://github.com/jaraco/backports.entry_points_selectable/archive/refs/tags/v1.1.1.tar.gz : 3bac0c14a1ffa8861e91904447ff5d42d154577933b55a98e2dad15e376845bd
+    - https://files.pythonhosted.org/packages/source/b/backports.entry_points_selectable/backports.entry_points_selectable-1.2.0.tar.gz : 4706f59179657ca7c1d325a543ee1370f8f46331f432bcac62fab242fdf0afa5
 homepage   : https://github.com/jaraco/backports.entry_points_selectable
 license    : MIT
 component  : programming.python
@@ -10,11 +10,11 @@ summary    : Compatibility shim to ease adoption of importlib_metadata 3.6
 description: |
     Compatibility shim to ease adoption of importlib_metadata 3.6. Supplies forward-compatibility of "selectable" entry points even on older versions of importlib_metadata and importlib.metadata, and avoids usage that triggers deprecation warnings.
 builddeps  :
+    - python-build
+    - python-installer
     - python-pytest # check
     - python-setuptools-scm
     - python-wheel
-environment: |
-    export SETUPTOOLS_SCM_PRETEND_VERSION=$version
 build      : |
     %python3_setup
 install    : |

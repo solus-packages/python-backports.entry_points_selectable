@@ -20,21 +20,23 @@
 </Description>
         <PartOf>programming.python</PartOf>
         <Files>
-            <Path fileType="library">/usr/lib/python3.10/site-packages/backports.entry_points_selectable-1.1.1-py3.10.egg-info/PKG-INFO</Path>
-            <Path fileType="library">/usr/lib/python3.10/site-packages/backports.entry_points_selectable-1.1.1-py3.10.egg-info/SOURCES.txt</Path>
-            <Path fileType="library">/usr/lib/python3.10/site-packages/backports.entry_points_selectable-1.1.1-py3.10.egg-info/dependency_links.txt</Path>
-            <Path fileType="library">/usr/lib/python3.10/site-packages/backports.entry_points_selectable-1.1.1-py3.10.egg-info/requires.txt</Path>
-            <Path fileType="library">/usr/lib/python3.10/site-packages/backports.entry_points_selectable-1.1.1-py3.10.egg-info/top_level.txt</Path>
+            <Path fileType="library">/usr/lib/python3.10/site-packages/backports.entry_points_selectable-1.2.0.dist-info/LICENSE</Path>
+            <Path fileType="library">/usr/lib/python3.10/site-packages/backports.entry_points_selectable-1.2.0.dist-info/METADATA</Path>
+            <Path fileType="library">/usr/lib/python3.10/site-packages/backports.entry_points_selectable-1.2.0.dist-info/RECORD</Path>
+            <Path fileType="library">/usr/lib/python3.10/site-packages/backports.entry_points_selectable-1.2.0.dist-info/WHEEL</Path>
+            <Path fileType="library">/usr/lib/python3.10/site-packages/backports.entry_points_selectable-1.2.0.dist-info/top_level.txt</Path>
             <Path fileType="library">/usr/lib/python3.10/site-packages/backports/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.10/site-packages/backports/__pycache__/__init__.cpython-310.opt-1.pyc</Path>
             <Path fileType="library">/usr/lib/python3.10/site-packages/backports/__pycache__/__init__.cpython-310.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.10/site-packages/backports/__pycache__/entry_points_selectable.cpython-310.opt-1.pyc</Path>
             <Path fileType="library">/usr/lib/python3.10/site-packages/backports/__pycache__/entry_points_selectable.cpython-310.pyc</Path>
             <Path fileType="library">/usr/lib/python3.10/site-packages/backports/entry_points_selectable.py</Path>
         </Files>
     </Package>
     <History>
-        <Update release="5">
-            <Date>2022-05-04</Date>
-            <Version>1.1.1</Version>
+        <Update release="6">
+            <Date>2022-11-02</Date>
+            <Version>1.2.0</Version>
             <Comment>Packaging update</Comment>
             <Name>Algent Albrahimi</Name>
             <Email>algent@protonmail.com</Email>
